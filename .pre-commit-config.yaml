@@ -45,20 +45,20 @@ repos:
       - id: requirements-txt-fixer
       # - id: sort-simple-yaml
   - repo: https://github.com/astral-sh/uv-pre-commit
-    rev: 0.11.3
+    rev: 0.11.7
     hooks:
       - id: uv-lock
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.15.9
+    rev: v0.15.11
     hooks:
       - id: ruff-format
       - id: ruff-check
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.20.0
+    rev: v1.20.2
     hooks:
       - id: mypy
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: v4.13.9
+    rev: v4.13.10
     hooks:
       - id: commitizen
   - repo: https://github.com/adrienverge/yamllint
